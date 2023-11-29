@@ -12,7 +12,6 @@ def get_customer(customers):
 
 def New_order(customers,name):
     order_id=input("enter the order number ")
-    print(customers)
     if order_id in customers[name]:
         print('order number already exists')
         return
